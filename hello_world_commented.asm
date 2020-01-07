@@ -16,7 +16,7 @@ org 0x7c00
 ;   the boot sector needs 512 bytes, the stack for the boot sector
 ;   is also 512 bytes. 0x8000 - (512 + 512) = 0x7c00
 
-msg db "Hello world"   
+msg: db "Hello world"   
 ; This declares a label called "msg" that contains "Hello world"
 ;   db is Declare Byte(s) and initialize them to our message
 
