@@ -4,7 +4,7 @@
 
 Can be used with:
 ```
-nasm -f bin hello_world.asm -o hello_world.img
+nasm -f bin hello_world_commented.asm -o hello_world.img
 qemu-system-x86_64 -hda hello_world.img
 ```
 
