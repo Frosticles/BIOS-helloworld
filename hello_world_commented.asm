@@ -93,4 +93,5 @@ times 510-($-$$) db 0
 
 dw 0xaa55
 ; dw is declare an initialized word (a word is 2 bytes) 
-; 0xaa55 is the BIOS magic number to say this is a bootable sector
+; 0x55aa is the BIOS magic number to say this is a bootable sector
+; but because x86 is little-endian, it must be written as 0xaa55 in assembly
