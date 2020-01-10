@@ -1,7 +1,7 @@
 ; Example to print hello world to the screen from the BIOS
 ;
 ; Can be used with:
-;   nasm -f bin hello_world_uncommented.asm -o hello_world.img
+;   nasm -f bin hello_world_alternative.asm -o hello_world.img
 ;   qemu-system-x86_64 -hda hello_world.img
 ;
 
